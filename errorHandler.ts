@@ -25,7 +25,6 @@ export const errorHandler = (
   });
 };
 
-// Custom error class for application errors
 export class ApplicationError extends Error {
   statusCode: number;
 
